@@ -6,12 +6,24 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>  
   
   <groupId>com.javatpoint.application1</groupId>  
-  <artifactId>my-application1</artifactId>  
-  <version>1.0</version>  
-  <packaging>jar</packaging>  
+  <artifactId>hr-api</artifactId>  
+  <version>1.1</version>  
+  <packaging>war</packaging>  
   
   <name>Maven Quick Start Archetype</name>  
-  <url>http://maven.apache.org</url>  
+  <url>http://maven.apache.org</url>
+   
+  <dependencies>  
+      <dependency>  
+          <groupId>org.apache.poi</groupId>  
+          <artifactId>poi</artifactId>  
+          <version>5.0.0</version>    
+    </dependency>  
+  </dependencies> 
+         <groupId>com.itextpdf</groupId>  
+         <artifactId>itextpdf</artifactId>  
+         <version>5.5.13.3</version> 
+  
   
   <dependencies>  
     <dependency>  
